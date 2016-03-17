@@ -1,0 +1,9 @@
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*~
+/node_modules
+npm-debug.log

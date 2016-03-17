@@ -1,0 +1,34 @@
+{
+  "name": "gitpu",
+  "version": "0.3.7",
+  "description": "Git commit 命令行实用程序,将所有修改过的文件并提交它们.自动gitpush .A command line utility to Git Add all modified files and commit them.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zanjs/gitpu.git"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "gitpu": "./bin/gitpush"
+  },
+  "keywords": [
+    "shell",
+    "spawn",
+    "process",
+    "git",
+    "commit",
+    "github",
+    "cmd"
+  ],
+  "author": "Julaud",
+  "license": "ISC",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "chalk": "latest",
+    "commander": "^2.9.0"
+  }
+}
