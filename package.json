@@ -1,6 +1,6 @@
 {
   "name": "gitpu",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "description": "Git commit 命令行实用程序,将所有修改过的文件并提交它们.自动gitpush .A command line utility to Git Add all modified files and commit them.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
