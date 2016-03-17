@@ -6,7 +6,9 @@ var commit = [
     'git log 查看 commit日志',
     '创建一个叫做"dev"的分支，并切换过去',
     '切换回主分支 git checkout master',
-    '再把新建的分支删掉： git branch -d dev'
+    '再把新建的分支删掉： git branch -d dev',
+    '2016 我要飞的更高',
+    'Hello Word @all'
 ]
 
  exports.commit = commit;
