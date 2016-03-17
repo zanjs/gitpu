@@ -59,7 +59,7 @@ function autogit(commitMsg) {
         
           var pull = spawn('git', ['pull']);
           
-           push.stdout.on('data', function(data){
+           pull.stdout.on('data', function(data){
                console.log(chalk.blue(data.toString()));
            });
         
