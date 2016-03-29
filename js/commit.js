@@ -8,7 +8,11 @@ var commit = [
     '切换回主分支 git checkout master',
     '再把新建的分支删掉： git branch -d dev',
     '2016 我要飞的更高',
-    'Hello Word @all'
+    'Hello Word @all',
+    '很累,感觉自己不会再爱了',
+    'ie go up',
+    '我好想你,记得常回家看看',
+    '谢谢你曾经爱过,再见亦是朋友'
 ]
 
  exports.commit = commit;
