@@ -64,7 +64,12 @@ function autogit(commitMsg) {
            });
         
            pull.on('close', function(){ 
-                    var commit = spawn('git', ['commit', '-m', commitMsg + ' - ' + emojiUI ]);
+                     var fstr = commitMsg.substr(0,1);
+                     if(fstr != "#"){
+                         commitMsg = commitMsg + emojiUI
+                     } 
+                                 
+                    var commit = spawn('git', ['commit', '-m', commitMsg]);
                     commit.on('close', function(){
                             console.log(chalk.green.bold('git commit ok \n 正在提交到远程仓库 \n loading push...'));
 
