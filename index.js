@@ -27,6 +27,9 @@ function GetRandomNum(Min,Max){
 
 function argvtest() {
   var commitMsg = process.argv[2];
+  if(commitMsg){
+         commitMsg = commitMsg.trim();      
+  }
   if(!commitMsg)
     commitMsg = commitUI;
  autogit(commitMsg);
