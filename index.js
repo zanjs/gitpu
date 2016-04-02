@@ -67,10 +67,17 @@ function autogit(commitMsg) {
            });
         
            pull.on('close', function(){ 
-                     var fstr = commitMsg.substr(0,1);
-                     if(fstr != "#"){
-                         commitMsg = commitMsg + emojiUI
-                     } 
+                     var fstr = commitMsg;
+                     if(fstr){
+                        fstr = fstr.substr(0,1);
+                         
+                         if(fstr != "#"){
+                            commitMsg = commitMsg + emojiUI
+                         } 
+                         
+                     }
+                     
+                     
                                  
                     var commit = spawn('git', ['commit', '-m', commitMsg]);
                     commit.on('close', function(){
