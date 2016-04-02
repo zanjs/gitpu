@@ -46,7 +46,7 @@ function autogit(commitMsg) {
 
   status.stdout.on('data', function(data){
     st = data.toString().split('\n');
-    for(i=0;i<st.length;i++) {
+    for(var i=0;i<st.length;i++) {
       console.log(chalk.red(st[i].trim()));
     }
   });
