@@ -29,6 +29,6 @@
   },
   "dependencies": {
     "chalk": "latest",
-    "commander": "^2.9.0"
+    "commander": "^3.0.1"
   }
 }
